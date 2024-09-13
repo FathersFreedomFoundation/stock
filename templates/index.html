@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Prediction</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00FFFF;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+        }
+
+        input[type="file"], input[type="submit"] {
+            font-size: 1.5em;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #00FFFF;
+            color: black;
+            cursor: pointer;
+            margin: 20px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Stock Data CSV</h1>
+    <form action="/predict" method="post">
+        <label for="stock">Enter Stock Symbol:</label>
+        <input type="text" id="stock" name="stock" required>
+        <button type="submit">Predict Stock</button>
+    </form>
+    </body>
+</html>

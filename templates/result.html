@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Price Prediction for {{ stock }}</h1>
+    <img src="{{ url_for('static', filename='stock_prediction.png') }}" alt="Stock Prediction">
+</body>
+</html>
