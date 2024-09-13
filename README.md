@@ -1,4 +1,4 @@
-# stockStock Price Prediction App 📈
+# Stock Price Prediction App 📈
 Overview
 
 The Stock Price Prediction App is an AI-powered web application that predicts future stock prices based on historical data using a Long Short-Term Memory (LSTM) model. This application allows users to input a stock symbol (e.g., AAPL, NVDA), and it fetches historical data from Yahoo Finance, trains a machine learning model, and provides both visualizations and performance metrics like Root Mean Squared Error (RMSE).
