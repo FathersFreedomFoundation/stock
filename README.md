@@ -1,14 +1,12 @@
-# Stock Price Prediction App 📈
+Stock Price Prediction App 📈
 Overview
-
 The Stock Price Prediction App is an AI-powered web application that predicts future stock prices based on historical data using a Long Short-Term Memory (LSTM) model. This application allows users to input a stock symbol (e.g., AAPL, NVDA), and it fetches historical data from Yahoo Finance, trains a machine learning model, and provides both visualizations and performance metrics like Root Mean Squared Error (RMSE).
 
 This project demonstrates the application of machine learning techniques for time-series prediction and serves as an educational tool for understanding how neural networks can be applied to financial markets.
 
 Features 🚀
-
 LSTM Model: Uses an LSTM neural network to predict stock prices based on historical data.
-Real-Time Stock Symbol Input: Users can input any stock symbol (like NVDA or AAPL) to generate predictions.
+Real-Time Stock Symbol Input: Users can input any stock symbol (e.g., NVDA, AAPL) to generate predictions.
 Data Visualization: Graphically displays predicted vs actual stock prices in a sleek, interactive interface.
 Performance Metrics: Provides key evaluation metrics such as Mean Squared Error (MSE) and Root Mean Squared Error (RMSE).
 Web Interface: Clean, user-friendly web interface built with Flask that allows users to interact with the model and get instant predictions.
@@ -28,7 +26,6 @@ scikit-learn: For data preprocessing and performance evaluation.
 yfinance: API to fetch historical stock data.
 Matplotlib: For graph visualization of predicted vs actual stock prices.
 HTML/CSS: For the web interface, providing a black-themed aesthetic with glowing blue text.
-
 Usage 📊
 Navigate to the Home Page:
 
@@ -44,7 +41,6 @@ Additional Metrics: Adding more evaluation metrics such as MAE (Mean Absolute Er
 User Authentication: Implementing a login system where users can save their predictions.
 Prediction Time Range: Adding the ability to predict stock prices over different time horizons (e.g., 30 days, 60 days, etc.).
 Model Improvements: Fine-tuning the LSTM model for better accuracy and trying other models like GRU or Transformer.
-
 License 📄
 This project is open-source and available under the MIT License.
 
@@ -53,3 +49,4 @@ Contributions are welcome! Feel free to open issues, submit pull requests, or re
 
 Author 🧑‍💻
 Created with ❤️ by Joey Bag of Bitcoins in collaboration with Seshat for guidance and support in building impactful projects.
+
